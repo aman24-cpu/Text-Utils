@@ -2,7 +2,7 @@ import { use, useState } from 'react';
 import './App.css'
 import NavBar from './NavBar';
 import TextForms from './TextForms';
-import Alert from './alert';
+import Alert from './Alert';
 function App() { 
 
 const [mode, setmode] = useState('light'); // whether dark Mode is enabled or not
